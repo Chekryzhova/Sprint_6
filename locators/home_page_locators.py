@@ -1,0 +1,21 @@
+from selenium.webdriver.common.by import By
+
+class HomePageLocators:
+    PRICE_ANSWER = (By.XPATH, "//div[@id = 'accordion__panel-0']")
+    SEVERAL_SCOOTER_QUESTION_BUTTON = (By.XPATH, "//div[@id = 'accordion__heading-1']")
+    SEVERAL_SCOOTER_ANSWER = (By.XPATH, "//div[@id = 'accordion__panel-1']")
+    RENTAL_TIME_QUESTION = (By.XPATH, "//div[@id = 'accordion__heading-2']")
+    RENTAL_TIME_ANSWER = (By.XPATH, "//div[@id = 'accordion__panel-2']")
+    ORDER_TODAY_QUESTION = (By.XPATH, "//div[@id = 'accordion__heading-3']")
+    ORDER_TODAY_ANSWER = (By.XPATH, "//div[@id = 'accordion__panel-3']")
+    EXTEND_RENTAL_QUESTION = (By.XPATH, "//div[@id = 'accordion__heading-4']")
+    EXTEND_RENTAL_ANSWER = (By.XPATH, "//div[@id = 'accordion__panel-4']")
+    CHARGING_QUESTION = (By.XPATH, "//div[@id = 'accordion__heading-5']")
+    CHARGING_ANSWER = (By.XPATH, "//div[@id = 'accordion__panel-5']")
+    CANCEL_ORDER_QUESTION = (By.XPATH, "//div[@id = 'accordion__heading-6']")
+    CANCEL_ORDER_ANSWER = (By.XPATH, "//div[@id = 'accordion__panel-6']")
+    MOSCOW_RING_ROAD_QUESTION = (By.XPATH, "//div[@id = 'accordion__heading-7']")
+    MOSCOW_RING_ROAD_ANSWER = (By.XPATH, "//div[@id = 'accordion__panel-7']")
+    HEADER_LOGO_SCOOTER = (By.XPATH, "//a[@class = 'Header_LogoScooter__3lsAR']")
+    HEADER_LOGO_YANDEX = (By.XPATH, "//a[@class = 'Header_LogoYandex__3TSOI']")
+    HEADER_BUTTON_ORDER = (By.XPATH, "//button[@class = 'Button_Button__ra12g']")
